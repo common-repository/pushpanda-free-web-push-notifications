@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import "pushpanda-font.css";
+#adminmenu .toplevel_page_pushpanda-settings.menu-icon-generic div.wp-menu-image:before {
+  font-family: "pushpanda" !important;
+  content: "";
+  font-size: 1.2em !important;
+  line-height: 22px;
+}
+
+.toplevel_page_pushpanda-settings #wpcontent {
+  padding-left: 0 !important;
+}
+
+.pp-wrapper {
+  position: relative;
+}
+.pp-wrapper .pp-container {
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+.pp-wrapper .pp-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pp-wrapper .pp-panda-01 {
+  position: absolute;
+  width: 120px;
+  left: 50%;
+  margin-left: -60px;
+  top: -81px;
+  height: 95px;
+  background: url(../pushpanda_web_push_free.png) no-repeat;
+  background-size: cover;
+}
+.pp-wrapper .pp-panda-02 {
+  position: absolute;
+  background: url(../pushpanda_features.png) no-repeat;
+  background-size: cover;
+  bottom: 3px;
+  right: 3px;
+  width: 155px;
+  height: 130px;
+}
+.pp-wrapper .pp-header {
+  margin-top: 15px;
+  text-align: center;
+  position: relative;
+}
+.pp-wrapper .pp-header.pp-header-design {
+  margin-top: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 0 rgba(213, 213, 213, 0.5), 0 1px 2px #eee;
+}
+.pp-wrapper .pp-header .pp-logo {
+  float: left;
+  min-width: 160px;
+  padding: 7px 0 7px 7px;
+}
+.pp-wrapper .pp-header .pp-logo img {
+  with: auto;
+  height: 32px;
+}
+.pp-wrapper .pp-header .pp-nav {
+  float: right;
+  height: 100%;
+  padding-right: 7px;
+  line-height: 50px;
+}
+.pp-wrapper .pp-mt {
+  margin-top: 30px;
+}
+.pp-wrapper .pp-mt-15 {
+  margin-top: 15px;
+}
+.pp-wrapper .pp-mt-100 {
+  margin-top: 100px;
+}
+.pp-wrapper .pp-mb {
+  margin-bottom: 30px;
+}
+.pp-wrapper .pp-img1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  display: block;
+}
+.pp-wrapper .pp-img1 img {
+  width: 100%;
+  height: auto;
+}
+.pp-wrapper .pp-grid {
+  position: relative;
+  display: table !important;
+}
+.pp-wrapper .pp-grid .pp-box {
+  display: table-cell !important;
+  width: 50%;
+  box-sizing: border-box;
+}
+.pp-wrapper .pp-grid .pp-box .pp-inner {
+  padding: 0 15px;
+}
+.pp-wrapper .pp-grid .pp-box:first-child {
+  border-right: 1px solid #eee;
+}
+
+/*# sourceMappingURL=pushpanda.css.map */
